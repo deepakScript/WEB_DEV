@@ -111,7 +111,7 @@ ul{
 }
 .secondary-button:hover{
     border-color: var(--accent-color);
-    color: var(--accent-color);
+    color: var(--primary-text-color);
 }
 
 /* nav bar */
@@ -133,4 +133,49 @@ ul{
     justify-content: end;
     gap: 40px;
 }
+
+
+
+/* header section */
+header{
+    padding: 50px var(--padding-inline-section);
+}
+
+.header-section{
+    justify-content: center;
+    gap: 50px;
+}
+.header-left{
+    max-width: 40vw;
+}
+
+.header-left h1{
+    margin-top: 20px;
+}
+
+.get-started-btn{
+    margin-top: 20px;
+}
+
+.header-right img{
+    width: 600px;
+}
+
+
+/* companes section */
+.companies-header{
+    text-align: center;
+    margin-block: 30px;
+    color: var(--primary-text-color);
+}
+.logos{
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.logo{
+    height: 46px;
+}
+
+
 
